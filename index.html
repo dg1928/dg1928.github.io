@@ -3,19 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head><h1>
-</h1>
+    <title>primates</title>
+</head>
+<h1>top simios</h1>
+<style>
+        #img{display:none;
+ }
+</style>
 <body>
-    <button tipe="button">
-       <img src "https://www.tooltyp.com/wp-content/uploads/2014/10/1900x920-8-beneficios-de-usar-imagenes-en-nuestros-sitios-web.jpg">
+    <p>numero 1</p>
+    <button id="boton" onclick="mostrar();">mostrar imagen</button>
+    <div id="img">
+<img src="https://estaticos.elcolombiano.com/documents/10157/0/780x714/0c74/780d565/none/11101/MRCH/image_content_30907371_20180424180406.jpg" alt="">
+<button id="boton" onclick="ocultar();">ocultar imagen </button>
+<p><b>TU</b></p>
+</div>
+<script>
 
-    </button>
-    
-    <script>
-        
-    </script>
-
-
+    function mostrar(){
+        document.getElementById('img').style.display = 'block';
+    }
+    function ocultar(){
+        document.getElementById('img').style.display = 'none';
+    }
+</script>
 </body>
 </html>
